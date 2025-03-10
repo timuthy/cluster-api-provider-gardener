@@ -1,0 +1,7 @@
+apiVersion: apis.kcp.io/v1alpha1
+kind: APIExport
+metadata:
+  name: cluster-api
+spec:
+  latestResourceSchemas:
+  - v195.clusters.cluster.x-k8s.io

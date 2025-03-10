@@ -1,0 +1,9 @@
+apiVersion: apis.kcp.io/v1alpha1
+kind: APIBinding
+metadata:
+  name: cluster-api-crds
+spec:
+  reference:
+    export:
+      name: cluster-api      # Name of the APIExport
+      path: root:cluster-api # Workspace where the APIExport lives
