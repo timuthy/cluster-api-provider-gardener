@@ -8,9 +8,13 @@ metadata:
 spec:
   group: infrastructure.cluster.x-k8s.io
   names:
+    categories:
+    - cluster-api
     kind: Shoot
     listKind: ShootList
     plural: shoots
+    shortNames:
+    - shoots
     singular: shoot
   scope: Namespaced
   versions:
@@ -2411,3 +2415,5 @@ spec:
         type: object
     served: true
     storage: true
+    subresources:
+      status: {}
