@@ -24,3 +24,15 @@ kubectl apply -f config/apibinding.yaml
 kubectl ws use root
 kubectl apply -f config/apibinding.yaml
 ```
+
+Now you can run the controller:
+
+```shell
+go run ./main.go
+```
+
+In another terminal pane, create a `Cluster` object:
+
+```shell
+kubectl apply -f config/cluster.yaml
+```
