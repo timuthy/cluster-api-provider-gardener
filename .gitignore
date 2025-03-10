@@ -1,2 +1,15 @@
 .kcp
 .idea
+*.test
+*.coverprofile
+*.html
+.vscode
+.idea
+.DS_Store
+*~
+
+TODO
+hack/tools
+
+# GitGuardian
+.cache_ggshield
